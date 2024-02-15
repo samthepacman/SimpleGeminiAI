@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "assistant"
+version = "0.1.0"
+description = "A Simple TTS assistant based on Google's Gemini Pro API"
+authors = ["Chandra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+gtts = "^2.4.0"
+numpy = "^1.26.2"
+speechrecognition = "^3.10.1"
+pyaudio = "^0.2.14"
+search-engine-parser = "^0.6.8"
+google-generativeai = "^0.3.1"
+markdown2 = "^2.4.11"
+tkhtmlview = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
